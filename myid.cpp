@@ -44,7 +44,7 @@ int main() {
 		}
 		endgrent();
 		
-		cout <<"Initial working (home) directory: " << string(entry->pw_dir) << "\n";
+		cout <<"\nInitial working (home) directory: " << string(entry->pw_dir) << "\n";
 		cout <<"Login shell: " << string(entry->pw_shell) << "\n";
 	}
 
